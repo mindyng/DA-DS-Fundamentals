@@ -74,6 +74,41 @@
 # LLM Evaluations
 * [FACTS Grounding: A new benchmark for evaluating the factuality of large language models](https://deepmind.google/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/?utm_source=tldrai)
 
+1. Purpose and Goal
+- Introduces a new benchmark to evaluate how accurately LLMs ground their responses in source material
+- Aims to measure and reduce hallucination in LLM outputs
+- Launched with a public leaderboard on Kaggle to track industry progress
+
+2. Dataset Structure
+- 1,719 total examples split into:
+  - 860 public examples (released)
+  - 859 private examples (held out)
+- Covers diverse domains: finance, technology, retail, medicine, law
+- Documents up to 32,000 tokens (~20,000 words)
+- Focus on tasks requiring factual responses, excluding creativity/complex reasoning
+
+3. Evaluation Methodology
+- Uses three frontier LLM judges:
+  - Gemini 1.5 Pro
+  - GPT-4
+  - Claude 3.5 Sonnet
+- Two-phase judging process:
+  1. Eligibility check (adequately addresses request)
+  2. Factual accuracy assessment (grounded in provided document)
+
+4. Key Features
+- Requires long-form responses
+- Tests grounding in provided context
+- Focuses on various tasks like summarization, Q&A, and rewriting
+- Evaluates both comprehensiveness and factual accuracy
+
+5. Future Plans
+- Will continue to evolve as field progresses
+- Open for community engagement and model submissions
+- Aims to continuously raise standards for LLM factuality
+
+This benchmark represents an important step in measuring and improving LLMs' ability to provide accurate, well-grounded responses based on source materials.  
+
 # Search Performance Metrics
 * [Google vs. ChatGPT Search](https://searchengineland.com/chatgpt-search-vs-google-analysis-449676?utm_source=tldrai)
 
