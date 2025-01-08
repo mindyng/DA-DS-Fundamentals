@@ -112,5 +112,9 @@ This benchmark represents an important step in measuring and improving LLMs' abi
 # Search Performance Metrics
 * [Google vs. ChatGPT Search](https://searchengineland.com/chatgpt-search-vs-google-analysis-449676?utm_source=tldrai)
 
+<img width="802" alt="Screenshot 2025-01-07 at 8 51 20 PM" src="https://github.com/user-attachments/assets/14d6f477-3d4d-435d-b86e-8097bae7f198" />
+
+  
+
 # Review Main Concepts
 * [Interactive Dashboard to Test Knowledge](http://192.168.1.250:8501/)
